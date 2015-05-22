@@ -10,9 +10,19 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var facebook: UIImageView!
+    
+    @IBOutlet weak var twitter: UIImageView!
+    
+    @IBOutlet weak var linkedin: UIImageView!
+    
+    @IBOutlet weak var photoLoad: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
